@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <!--Import CSS-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Conteudo-->
+        <main>
+
+            <img src="imagens/Alura.png">
+            <textarea type="text" placeholder="Digite seu texto", class="entrada"></textarea>
+            <h1 class="texto-recomendacao">🛈Apenas letras minúsculas e sem acento.</h1>
+            <div class="botoes">
+                <button class="botao-criptografar">Criptografar</button>
+                <button class="botao-descriptografar">Descriptografar</button>
+                
+            </div>
+
+            <div class="saida">
+                <img class="imagem" src="imagens/boneco.jpg">
+                <h1 class="mensagem">
+                    <p>Nenhuma mensagem</p>
+                    <p>encontrada</p>
+                    <p class="mensagem-secundaria">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </h1>
+                <textarea readonly style="display: none;" class="area"></textarea>
+        
+                <button style="display: none;" class="botao-copiar">Copiar</button>
+            </div>
+        </main>
+
+        <!--Rodapé-->
+        <footer>
+            <a href="https://github.com/lucasanjosdosreis?tab=repositories">
+                <img class="github" src="imagens/github.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-anjos-dos-reis-b90888133/">
+                <img class="linkedin" src="imagens/linkedin.png" alt="">
+            </a>
+            <a href="https://www.lucasanjosdosreis@yahoo.com">
+                <img class="email" src="imagens/mensagem.png" alt="">
+            </a>
+            <p class="copyright">© Copyright Lucas Anjos dos Reis </p>
+            <P class="cidade">Mogi das Cruzes - SP</P>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

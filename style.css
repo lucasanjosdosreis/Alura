@@ -1,0 +1,187 @@
+
+body {
+    background: #0694f3;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    text-decoration: solid;
+    background-color: gradient(blue green );
+}
+
+.entrada {
+    margin-inline: 0 0 20px;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    background: #F3F5FC;
+    font-size: 26px;
+    resize: none;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 280px;
+    top: 168px;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.texto-recomendacao {
+    
+    position: absolute;
+    left: 280px;
+    top: 670px;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 80%;
+    vertical-align: top;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.entrada:focus{
+    outline: none   ;
+}
+
+.entrada::placeholder {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.botoes {
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 700px;
+}
+
+.botao-criptografar, .botao-descriptografar  {
+    width: 300px;
+    height: 67px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 35px;
+    background: #91b7f0;
+    transition: 0.5s all;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botao-criptografar:hover, .botao-descriptografar:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    border-color: rgb(255, 183, 96);
+    background-color: rgb(36, 71, 146);
+    color: white
+
+}
+
+.saida {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 1200px;
+    top: 150px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+  
+}
+
+.imagem {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.mensagem {
+    position: absolute;
+    left: 90px;
+    top: 400px;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.mensagem-secundaria {
+    position: absolute;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.area {
+    width: 380px;
+    height: 300px;
+    font-size: 26px;
+    resize: none;
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    border: none;
+    padding: 20px;
+}
+
+.area:focus {
+    outline: none;
+}
+
+.botao-copiar {
+    width: 300px;
+    height: 67px;
+    position: absolute;
+    left: 75px;
+    top: 470px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #91b7f0;
+    border-style: inset;
+    transition: 0.5s all;
+    cursor: pointer;
+    
+
+}
+
+.botao-copiar:hover {
+    transform: scale(1.1);
+    background: #0A3871;
+    color: white;
+    border-color: rgb(255, 146, 96);
+    
+}
+
+footer {
+    position: absolute;
+    top: 900px;
+    left: 770px;
+}
+
+.github, .linkedin, .email {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.github:hover, .linkedin:hover, .email:hover {
+    transform: scale(1.3);
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    color: black;
+}
+.cidade{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-style: inherit;
+    font-size: large;
+    text-align: center;
+    color: aqua;
+}
